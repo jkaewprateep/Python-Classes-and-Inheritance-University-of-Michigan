@@ -33,4 +33,19 @@ Python Classes and Inheritance University of Michigan
     <b> Pictures from the Internet </b> </br>
 </p>
 
+### Select random text ###
+
+🧸💬 Selecting random text by utilizing randoms function, this implementation is when over start the running project but for random instant required to a specific random number or create a random identity to tell random sample of a new random object. </br>
+
+```
+import random
+
+rand_number = random.randint(1, 10)
+print('Random number between 1 and 10: {}'.format(rand_number))
+
+letters = [letter for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ']
+rand_letter = random.choice(letters)
+print('Random letter: {}'.format(rand_letter))
+```
+
 
