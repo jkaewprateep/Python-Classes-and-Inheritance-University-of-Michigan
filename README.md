@@ -12,3 +12,7 @@ Python Classes and Inheritance University of Michigan
 [Google IT Automation with Python]( https://coursera.org/share/4ce05eb064193ff87071baedb37f1c9e ) </br>
 [HackerRank Python (Basic)]( https://www.hackerrank.com/certificates/e063e97d9d72 ) </br>
 [DeepLearning.AI TensorFlow Developer]( https://coursera.org/share/72d845ca7058700e2ff783ecd9e6b710 ) </br>
+
+## Understand the assignment ##
+
+🧸💬 There are human player and computer player, start the game with an amount of money 0$, and the goal is to guess characters in word composing. The games is playing as a turn-based game each player has to spin the wheel and define an amount for each turn with valid of three actions (1) Guessing a letter that does not mean guessing in the game and the minimum prize for the vowel is at least 250$ the game turn play will return the prize to the player in turn by the number of character guessing correct times the prizes of money the player determined in each turn base. (2) Guess to win the game by each turn and correct phase to win the games and (3) Turn pass by say pass.
