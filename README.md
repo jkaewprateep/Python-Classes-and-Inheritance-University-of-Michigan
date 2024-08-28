@@ -55,6 +55,19 @@ print('Random letter: {}'.format(rand_letter))
         (3) getRandomCategoryAndPhrase() returns a tuple with a random category and phrase for players to guess  </br>
         (4) obscurePhrase(phrase, guessed) returns a tuple with a random category and phrase for players to guess  </br>
 
+<p align="center" width="100%">    
+    <img align="left" width="45%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/computer_vs_human.jpg"> 
+    <p align="middle">
+    <b>  </b> </br>
+    <img align="top" width="20%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/kid_10.jpg"> </br>
+    <img align="top" width="15%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/kid_11.jpg">
+    <img align="top" width="37.5%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/kid_09.jpg"> </br>
+    </p>
+    <b> Pictures from the Internet </b> </br>
+</p>
+
+#### Define a game environment ####
+
 ```
 import json
 import random
