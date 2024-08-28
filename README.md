@@ -217,6 +217,11 @@ Steve ($1800) (for a player with instance variables .name == 'Steve' and prizeMo
 🐐💬 Standards implementation rules include the use of protected access variables, methods, objects, algorithms, and items in the running scripts and applications. In C, C#.net, Java are easy as-defined protected variables and using class inheritance but in Python, you can access them anywhere if valued they can pop out, and protected internal variables can be performed in multiple methods. One way is scoped variable ```local```, ```global``` and ```non-local``` and class inheritant. </br>
 [Class inheritance]( https://github.com/jkaewprateep/Class_inheritances/blob/main/README.md )
 
+<p align="center" width="100%">
+    <img width="40%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/kid_12.jpg"> </br>
+    <b> Pictures from the Internet </b> </br>
+</p>
+
 #### Example of WOFPlayer class ####
 
 ```
