@@ -211,6 +211,8 @@ print(getNumberBetween('Testing getNumberBetween(). Enter a number between 1 and
 ```.__str__()```: Returns the player’s name and prize money in the following format: </br>
 Steve ($1800) (for a player with instance variables .name == 'Steve' and prizeMoney == 1800)
 
+#### Internal functions ####
+
 🧸💬 Example of good method value return by internal function method, the method integration where application and class method had the same input and return and they are remarks internal methods. For example the ```__str__``` method, ```__init__``` method or you can create a new method definition ```__getLasttraininngweight__``` and use it by the programs. </br>
 
 #### Example of WOFPlayer class ####
