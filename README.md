@@ -181,6 +181,15 @@ print(getNumberBetween('Testing getNumberBetween(). Enter a number between 1 and
     ```.name```: The name of the player (should be passed into the constructor) </br>
     ```.prizeMoney```: The amount of prize money for this player (an integer, initialized to 0) </br>
     ```.prizes```: The prizes this player has won so far (a list, initialized to []) </br>
+    
+#### WOFPlayer class methods ####
+
+```.addMoney(amt)```: Add amt to self.prizeMoney </br>
+```.goBankrupt()```: Set self.prizeMoney to 0 </br>
+```.addPrize(prize)```: Append prize to self.prizes </br>
+```.__str__()```: Returns the player’s name and prize money in the following format: </br>
+Steve ($1800) (for a player with instance variables .name == 'Steve' and prizeMoney == 1800)
+
 
 ### Sample output ###
 
