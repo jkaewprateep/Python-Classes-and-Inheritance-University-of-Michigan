@@ -177,6 +177,13 @@ print(getNumberBetween('Testing getNumberBetween(). Enter a number between 1 and
 
 ## Part A: WOFPlayer ##
 
+🐑💬 ➰ We define the player instance for the collection of these values as a class name ```WOFPlayer```. </br>
+    ```.name```: The name of the player (should be passed into the constructor) </br>
+    ```.prizeMoney```: The amount of prize money for this player (an integer, initialized to 0) </br>
+    ```.prizes```: The prizes this player has won so far (a list, initialized to []) </br>
+
+### Sample output ###
+
 ```
 Steve has $200
 
