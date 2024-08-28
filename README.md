@@ -190,6 +190,68 @@ print(getNumberBetween('Testing getNumberBetween(). Enter a number between 1 and
 ```.__str__()```: Returns the player’s name and prize money in the following format: </br>
 Steve ($1800) (for a player with instance variables .name == 'Steve' and prizeMoney == 1800)
 
+#### Example of WOFPlayer class ####
+
+```
+class WOFPlayer():
+    
+    def __init__( self, name ):
+        self.name = name;
+        
+        self.prizes = None;
+        self.prizeMoney = None;
+        
+        if self.prizes == None :
+            self.prizes = [ ];
+            
+        if self.prizeMoney == None :
+            self.prizeMoney = 0;
+        
+        return
+    
+    def addMoney( self, amt ):
+        self.prizeMoney = self.prizeMoney + amt;
+        
+        # return self.prizeMoney;
+        return None;
+    
+    def goBankrupt( self ):
+        self.prizeMoney = 0;
+        
+        # return self.prizeMoney;
+        return None;
+    
+    def getPrizeMoney( self ):
+        
+        if self.prizeMoney == None :
+            self.prizeMoney = 0;
+        
+        return self.prizeMoney;
+    
+    def addPrize( self, prize ):
+        
+        if self.prizes == None :
+            self.prizes = [];
+        
+        self.prizes.append( prize );
+        
+        # return self.prizes;
+        return None;
+    
+    def __str__( self ):
+        # .__str__(): Returns the player’s name and prize money in 
+        # the following format:
+        # Steve ($1800) (for a player with instance variables 
+        # .name == 'Steve' and prizeMoney == 1800)
+        
+        message = f"{ self.name } (${ self.prizeMoney })"
+        
+        return message;
+```
+
+## Part B: WOFHumanPlayer ##
+
+🐑💬 ➰ This WOFHumanPlayer is inherited from WOFPlayer class with a method ```.getMove(category, obscuredPhrase, guessed)``` for the input of the player guess word character as in the next text display example. </br>
 
 ### Sample output ###
 
@@ -201,4 +263,200 @@ Phrase: _L___ER N____N_L P_RK
 Guessed: B, E, K, L, N, P, R, X, Z
 
 Guess a letter, phrase, or type 'exit' or 'pass':
+```
+
+#### Example of WOFHumanPlayer class ####
+
+```
+class WOFHumanPlayer( WOFPlayer ) :
+    
+    def __init__( self, name ):
+        self.name = name;
+        WOFPlayer.__init__( self, self.name );
+            
+        return
+    
+    def getMove( self, category, obscuredPhrase, guessed ):
+        # Should ask the user to enter a move (using input()) and 
+        # return whatever string they entered.
+        
+        # {name} has ${prizeMoney}
+        # Category: {category}
+        # Phrase:  {obscured_phrase}
+        # Guessed: {guessed}
+        
+        # Guess a letter, phrase, or type 'exit' or 'pass':
+        
+        message = f"""
+        { self.name } has ${ WOFPlayer.getPrizeMoney }
+
+        Category: { category }
+        Phrase:  { obscured_phrase }
+        Guessed: { guessed }
+
+        Guess a letter, phrase, or type 'exit' or 'pass':
+        """
+        
+        user_input = input( message );
+        
+        return user_input;
+```
+
+## Part C: WOFComputerPlayer ##
+
+🐑💬 ➰ This WOFComputerPlayer is inherited from WOFPlayer class with a method with variable ```.difficulty``` and the methods: </br>
+
+#### WOFComputerPlayer class methods ####
+
+```.smartCoinFlip()```: This is a random number with a difficulty level from the class variable. </br>
+```.getPossibleLetters(guessed)```: This method should return a list of letters that can be guessed. </br>
+```.getMove(category, obscuredPhrase, guessed)```: Should return a valid move. </br>
+
+#### Example of WOFComputerPlayer class ####
+
+```
+class WOFComputerPlayer( WOFPlayer ) : 
+    
+    SORTED_FREQUENCIES = "ZQXJKVBPYGFWMUCLDRHSNIOATE";
+    
+    def __init__( self, name, difficulty ):
+        # Every computer player will have a difficulty instance 
+        # variable. Players with a higher difficulty generally 
+        # play “better”. There are many ways to implement this. 
+        # We’ll do the following:
+        self.name = name;
+        self.difficulty = difficulty;
+        self.VOWELS = "AEIOU";
+        self.VOWEL_COST = 250;
+        
+        WOFPlayer.__init__( self, self.name );
+        
+        # If there aren’t any possible letters to choose 
+        # (for example: if the last character is a vowel 
+        # but this player doesn’t have enough to guess a vowel), 
+        # we’ll 'pass'
+        
+        # Otherwise, semi-randomly decide whether to make a “good” 
+        # move or a “bad” move on a given turn (a higher 
+        # difficulty should make it more likely for the player 
+        # to make a “good” move)
+        # self.SORTED_FREQUENCIES = "ZQXJKVBPYGFWMUCLDRHSNIOATE";
+        
+        return
+    
+    def smartCoinFlip( self ):
+        #  This method will help us decide semi-randomly whether 
+        # to make a “good” or “bad” move. A higher difficulty 
+        # should make us more likely to make a “good” move. 
+        # Implement this by choosing a random number between 1 
+        # and 10 using random.randint(1, 10) (see above) and 
+        # returning False if that random number is greater than 
+        # self.difficulty. If the random number is less than or 
+        # equal to self.difficulty, return True.
+        
+        answer = random.randint(1, 10);
+        if answer > self.difficulty :
+            return False;
+        else :
+            return True;
+        
+    def getPossibleLetters( self, guessed ):
+        # This method should return a list of letters that can 
+        # be guessed.
+        
+        # These should be characters that are in LETTERS 
+        # ('ABCDEFGHIJKLMNOPQRSTUVWXYZ') but not in the guessed 
+        # parameter.
+        
+        print( "guessed", guessed );
+        
+        if len( guessed ) == 26 :
+            print( "pass" )
+            return "pass";
+        
+        listof_possiblechars = [];
+        for char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ" :
+            if char in guessed :
+                pass
+            else :
+                listof_possiblechars.append( char );
+
+        # print( "listof_possiblechars", listof_possiblechars );
+        
+        # Additionally, if this player doesn’t have enough prize 
+        # money to guess a vowel (variable VOWEL_COST set to 250), 
+        # then vowels (variable VOWELS set to 'AEIOU') should not 
+        # be included
+        
+        if WOFPlayer.getPrizeMoney( self ) < 250 :
+            try: 
+                listof_possiblechars.remove("A");
+            except:
+                pass;
+            try: 
+                listof_possiblechars.remove("E");
+            except:
+                pass;
+            try: 
+                listof_possiblechars.remove("I");
+            except:
+                pass;
+            try: 
+                listof_possiblechars.remove("O");
+            except:
+                pass;
+            try: 
+                listof_possiblechars.remove("U");
+            except:
+                pass;
+
+        if len( listof_possiblechars ) == 1 :
+            return "pass";
+        return listof_possiblechars;
+    
+    def getMove( self, category, obscuredPhrase, guessed ) :
+        if len( guessed ) == 26 :
+            return "pass";
+            
+        _temp = self.getPossibleLetters( guessed );
+        
+        if self.smartCoinFlip( ) :
+            print( "good move" );
+
+            _temp = list(self.SORTED_FREQUENCIES);
+            if WOFPlayer.getPrizeMoney( self ) < 250 :
+                try: 
+                    _temp.remove("A");
+                except:
+                    pass;
+                try: 
+                    _temp.remove("E");
+                except:
+                    pass;
+                try: 
+                    _temp.remove("I");
+                except:
+                    pass;
+                try: 
+                    _temp.remove("O");
+                except:
+                    pass;
+                try: 
+                    _temp.remove("U");
+                except:
+                    pass;
+
+            _temp = [ x for x in list( _temp ) if x in self.getPossibleLetters( guessed )]
+            
+            print( "str(_temp[-1])", str(_temp[-1]) );
+            
+            return str(_temp[-1]);
+            
+        else :
+            print( "bad move" );            
+            _temp = self.getPossibleLetters( guessed );
+            _temp2 = random.choice( _temp );
+            print( "***", _temp2 );
+            
+            return _temp2;
 ```
