@@ -70,7 +70,9 @@ print('Random letter: {}'.format(rand_letter))
 [random distribution]( https://github.com/jkaewprateep/random_distribution/blob/main/README.md ) </br>
 
 🦭💬 Do you mean that with a small amount of secondary items in the environment are affected differently then we have a random function that responds to the input by multiplying with the trained weight to execute the function⁉️ </br>
-🐐💬 Yes, that is because in the open environment, they vary with multiple of inputs interested in the same environment to respond with target actions, they also prevent none learning experience in machine learning and create contrast values update for prediction functions. </br>
+🐐💬 Yes, that is because, in the open environment, they vary with multiple inputs interested in the same environment to respond with target actions, they also prevent non-learning experiences in machine learning and create contrast values update for prediction functions. </br>
+🐯💬 Fire 🔥 is still a good option for effects created for different situations in hunting, Culture INFO the meaning of hunting duration, not the fire frames but using the method and effectiveness. </br>
+🐯💬 It is the old movie but that is a good option when you are a single target and need to create effects with less than multiple times trails. </br>
 
 #### Define a game environment ####
 
