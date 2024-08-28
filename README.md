@@ -351,7 +351,8 @@ class WOFHumanPlayer( WOFPlayer ) :
 🐑💬 ➰ There are multiple selection methods or control rules, hardening rules need to be in the game's environment or defined variables because of work collaboration and good codings utilization. In machine learning for multiple actions or binary action output, there are confidence scores and action logit nodes, In this method, they are selected by the terminal estimated function again by min-max, softmax, mathematical functions, and custom functions. Sometimes we also select the output by concatenating with other networks to make them translate the output previous network to the target network same as the transformer or knowledge transfer as we transform the convolution network to dense networks or a similar way.  </br>
 🐑💬 ➰ In this sample is do it by ```difficulty level``` limited. </br>
 🦭💬 We can make the codes simpler because they are managed list items, the logic is simple by sorting of the input and target word similarly to human player win. </br>
-🐐💬 In This method humans with experience perform better but not always when the sample is too large and random, selected objectives conversation sentence will make games more fun. </br>
+🐐💬 In This method humans with experience perform better but not always when the sample is too large and random, selected objectives conversation sentences will make games more fun. </br>
+[Remote devices]( https://github.com/jkaewprateep/Remote_devices/blob/main/README.md )
 
 #### Example of WOFComputerPlayer class ####
 
