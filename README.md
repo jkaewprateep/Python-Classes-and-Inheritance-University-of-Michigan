@@ -215,6 +215,7 @@ Steve ($1800) (for a player with instance variables .name == 'Steve' and prizeMo
 
 🧸💬 Example of good method value return by internal function method, the method integration where application and class method had the same input and return and they are remarks internal methods. For example the ```__str__``` method, ```__init__``` method or you can create a new method definition ```__getLasttraininngweight__``` and use it by the programs. </br>
 🐑💬 ➰ Protected function methods, you can define the class inherit method by using the extending function and overwrite the function variable with the same name variable, protected from global access variables, and use ```set``` and ```get``` for variable return or use of ```message query``` method returns to protect ambiguity message communications. </br>
+🐐💬 Standards implementation rules include the use of protected access variables, methods, objects, algorithms, and items in the running scripts and applications. In C, C#.net, Java are easy as-defined protected variables and using class inheritance but in Python, you can access them anywhere if valued they can pop out, and protected internal variables can be performed in multiple methods. One way is scoped variable ```local```, ```global``` and ```non-local``` and class inheritant. </br>
 
 #### Example of WOFPlayer class ####
 
