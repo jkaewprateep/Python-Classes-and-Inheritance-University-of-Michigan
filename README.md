@@ -13,7 +13,7 @@ Python Classes and Inheritance University of Michigan
 [HackerRank Python (Basic)]( https://www.hackerrank.com/certificates/e063e97d9d72 ) </br>
 [DeepLearning.AI TensorFlow Developer]( https://coursera.org/share/72d845ca7058700e2ff783ecd9e6b710 ) </br>
 
-## Understand the assignment #1 Puzzles guessing word character from a random fortunes with computer player ##
+## Understand the assignment #1 Puzzles guessing word character from a random fortune-wheel with computer player ##
 
 🧸💬 There are human player and computer player, start the game with an amount of money 0$, and the goal is to guess characters in word composing. The games is playing as a turn-based game each player has to spin the wheel and define an amount for each turn with valid of three actions (1) Guessing a letter that does not mean guessing in the game and the minimum prize for the vowel is at least 250$ the game turn play will return the prize to the player in turn by the number of character guessing correct times the prizes of money the player determined in each turn base. (2) Guess to win the game by each turn and correct phase to win the games and (3) Turn pass by say pass.
 
@@ -173,4 +173,16 @@ print(getNumberBetween('Testing getNumberBetween(). Enter a number between 1 and
 #     guessed: ['L', 'B', 'E', 'R', 'N', 'P', 'K', 'X', 'Z']
 #     phrase:  "GLACIER NATIONAL PARK"
 #     returns> "_L___ER N____N_L P_RK"
+```
+
+## Part A: WOFPlayer ##
+
+```
+Steve has $200
+
+Category: Places
+Phrase: _L___ER N____N_L P_RK
+Guessed: B, E, K, L, N, P, R, X, Z
+
+Guess a letter, phrase, or type 'exit' or 'pass':
 ```
