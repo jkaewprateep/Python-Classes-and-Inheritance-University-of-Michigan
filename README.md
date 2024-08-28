@@ -294,7 +294,7 @@ Guess a letter, phrase, or type 'exit' or 'pass':
 ```
 #### Class definition by extended class exitance ####
 
-🧸💬 By creating a class definition name WOFHumanPlayer from the exitance class name WOFPlayer, the new class name WOFHumanPlayer will have all defined structure and methods the same as the extended class but the new class can create new variables, methods, objects, and structure created without initial of the target function. The example is calling ```WOFPlayer.__init__( self, self.name );``` for initialing the object and variables or creating of new object in a different memory location by using ```super``` function to perform the same or different task. </br>
+🧸💬 By creating a class definition name ```WOFHumanPlayer``` from the exitance class name ```WOFPlayer```, the new class name WOFHumanPlayer will have all defined structure and methods the same as the extended class but the new class can create new variables, methods, objects, and structure created without initial of the target function. The example is calling ```WOFPlayer.__init__( self, self.name );``` for initialing the object and variables or creating of new object in a different memory location by using ```super``` function to perform the same or different task. </br>
 
 #### Example of WOFHumanPlayer class ####
 
