@@ -298,6 +298,12 @@ Guess a letter, phrase, or type 'exit' or 'pass':
 🐯💬 Sometimes it is not Culture INFO that creates contrast infomration return but the user may be referred to the same process that had proceeded with the same inputs different than expected by the call flow, the Culture-INFO once requires ```process id``` for reference by concatenated method process but now we use class object and reference as an object, some programmer still instance class with the process id in the reasons of logging management and tracking debug or resolution. </br>
 [Custom dataset]( https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/README.md )
 
+<p align="center" width="100%">
+    <img width="40%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/baseball_batch_02.jpg">
+    <img width="40%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/baseball_batch.jpg"> </br>
+    <b> Pictures from the Internet </b> </br>
+</p>
+
 #### Example of WOFHumanPlayer class ####
 
 ```
