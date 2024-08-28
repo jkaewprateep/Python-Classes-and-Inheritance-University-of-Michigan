@@ -346,6 +346,11 @@ class WOFHumanPlayer( WOFPlayer ) :
 ```.getPossibleLetters(guessed)```: This method should return a list of letters that can be guessed. </br>
 ```.getMove(category, obscuredPhrase, guessed)```: Should return a valid move. </br>
 
+#### Answers selection ####
+
+🐑💬 ➰ There are multiple selection methods or control rules, hardening rules need to be in the game's environment or defined variables because of work collaboration and good codings utilization. In machine learning for multiple actions or binary action output, there are confidence scores and action logit nodes, In this method, they are selected by the terminal estimated function again by min-max, softmax, mathematical functions, and custom functions. Sometimes we also select the output by concatenating with other networks to make them translate the output previous network to the target network same as the transformer or knowledge transfer as we transform the convolution network to dense networks or a similar way.  </br>
+🐑💬 ➰ In this sample is do it by ```difficulty level``` limited. </br>
+
 #### Example of WOFComputerPlayer class ####
 
 ```
