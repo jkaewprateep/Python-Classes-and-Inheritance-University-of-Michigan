@@ -36,6 +36,7 @@ Python Classes and Inheritance University of Michigan
 ### Select random text ###
 
 🧸💬 Selecting random text by utilizing randoms function, this implementation is when over start the running project but for random instant required to a specific random number or create a random identity to tell random sample of a new random object. </br>
+👧💬 🎈 Implementation in an open environment will require random functions because of environment adjustment and boost learning faster in the development area. Learning function and perform immediately but as in open environment problem to create a smooth response and evaluation random function still required similar to a bouncing ball on the floor the basketball players can play it but warm-up methods allowed them to play better with a confidence level. </br>
 
 ```
 import random
