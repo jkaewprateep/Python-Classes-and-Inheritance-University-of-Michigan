@@ -66,6 +66,8 @@ print('Random letter: {}'.format(rand_letter))
     <b> Pictures from the Internet </b> </br>
 </p>
 
+🐐💬 Recognition method versus computation search algorithms, and duration of full speed process. Imagine the maze escape games, computer search algorithms can perform by finding the shortest path from sample patterns found during the explore step but humans identify the escape by one end to another end similar to depths first search; our brains and learning methods train to favorite our brains this way. Adaptations where humans claim to work with new solutions between traveling paths better than computers start to be not true when computer calculation capacity increases. If inputs are correct and working processes are processed by learning experience computers seem to win over humans in escape paths finding a way but one process capacity that humans always win is experience recognitions such as scenarios with none priority orders when multiple times different events that should response to an order by the plan. In computers, they can re-order queues fast but not guarantee to have the best result because queue priority actions always replan same as in sci-fi movies humans fool robot machines with surprise items that have different and un-protected effects ( hot irons melt, frozen gases, undetected electrics wires and movements, behind target unexplored items, or mechanic start items ) </br>
+
 #### Define a game environment ####
 
 ```
