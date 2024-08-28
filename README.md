@@ -164,3 +164,13 @@ time.sleep(2)
 
 print(getNumberBetween('Testing getNumberBetween(). Enter a number between 1 and 10', 1, 10))
 ```
+
+🐑💬 ➰ Beginning the games by running the Python codes provided, and the games display as in the context box next below. </br>
+
+```
+# Given a phrase and a list of guessed letters, returns an obscured version
+# Example:
+#     guessed: ['L', 'B', 'E', 'R', 'N', 'P', 'K', 'X', 'Z']
+#     phrase:  "GLACIER NATIONAL PARK"
+#     returns> "_L___ER N____N_L P_RK"
+```
