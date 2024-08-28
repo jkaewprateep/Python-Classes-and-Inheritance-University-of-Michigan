@@ -16,3 +16,19 @@ Python Classes and Inheritance University of Michigan
 ## Understand the assignment ##
 
 🧸💬 There are human player and computer player, start the game with an amount of money 0$, and the goal is to guess characters in word composing. The games is playing as a turn-based game each player has to spin the wheel and define an amount for each turn with valid of three actions (1) Guessing a letter that does not mean guessing in the game and the minimum prize for the vowel is at least 250$ the game turn play will return the prize to the player in turn by the number of character guessing correct times the prizes of money the player determined in each turn base. (2) Guess to win the game by each turn and correct phase to win the games and (3) Turn pass by say pass.
+
+<p align="center" width="100%">
+    <img align="left" width="36%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/kid_08.jpg" alt="image" />
+    <p align="middle">
+    <img align="top" width="33%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/puzzles2.jpg" alt="image" />
+    <img align="top" width="25%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/puzzles3.jpg" alt="image" /> </br>
+    <img align="top" width="30%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/puzzles.jpg" alt="image" /> 
+    <img align="down" width="30%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/hangmangames.jpg" alt="image" /> </br>
+    </p>
+    <b>  </b> </br>
+</p>
+<p align="center" width="100%">
+    <b> Pictures from the Internet </b> </br>
+</p>
+
+
