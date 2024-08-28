@@ -27,7 +27,6 @@ Python Classes and Inheritance University of Michigan
     <img align="top" width="30%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/puzzles.jpg" alt="image" /> 
     <img align="down" width="30%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/hangmangames.jpg" alt="image" /> </br>
     </p>
-    <b>  </b> </br>
 </p>
 <p align="center" width="100%">
     <b> Pictures from the Internet </b> </br>
