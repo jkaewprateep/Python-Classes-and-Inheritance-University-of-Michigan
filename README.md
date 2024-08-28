@@ -364,6 +364,12 @@ class WOFHumanPlayer( WOFPlayer ) :
 🐐💬 In This method humans with experience perform better but not always when the sample is too large and random, selected objectives conversation sentences will make games more fun. </br>
 [Remote devices]( https://github.com/jkaewprateep/Remote_devices/blob/main/README.md )
 
+<p align="center" width="100%">
+    <img width="40%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/kid_13.jpg">
+    <img width="35.8%" src="https://github.com/jkaewprateep/Python-Classes-and-Inheritance-University-of-Michigan/blob/main/domino.jpg"> </br>
+    <b> Pictures from the Internet </b> </br>
+</p>
+
 #### Example of WOFComputerPlayer class ####
 
 ```
